@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tuition Center</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .header {
+            background-color: #56a3a6;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            margin-left: 30px;
+        }
+
+        .navigation {
+            margin-right: 10px;
+        }
+
+        .navigation ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .navigation li {
+            margin-right: 15px;
+            position: relative;
+        }
+
+        .navigation li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .navigation li:hover ul {
+            display: block;
+        }
+
+        .navigation ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #56a3a6;
+            min-width: 100px;
+        }
+
+        .navigation ul ul li {
+            margin: 0;
+            padding: 10px;
+            display: block;
+        }
+
+        .banner {
+            background-image: url("https://filedn.com/lXdPRR7Cm4sS1CrBdrFaEkX/CAMROLL/banner%20hi%20tech.jpg");
+            background-size: cover;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .banner-text {
+            text-align: center;
+            color: blue;
+        }
+
+        .footer {
+            background-color: #56a3a6;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="https://filedn.com/lXdPRR7Cm4sS1CrBdrFaEkX/CAMROLL/Jimmy_Logo%20only.png" alt="Tuition Center Logo" height="70">
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">Courses</a>
+                    <ul>
+                        <li><a href="#">Primary</a></li>
+                        <li><a href="#">Secondary</a></li>
+                        <li><a href="#">College</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                    <ul>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Facilities</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                    <ul>
+                        <li><a href="#">Visit Us</a></li>
+                        <li><a href="#">Email Us</a></li>
+                        <li><a href="#">Call Us</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="banner"></div>
+
+    <div class="banner-text">
+        <h1>Welcome to Tutoring Services</h1>
+        <p>Get personalized tutoring for various subjects.</p>
+    </div>
+
+    <div class="main">
+        <!-- Add your main content here -->
+    </div>
+
+    <div class="footer">
+        <p>&copy; Jimmy Ong 2024  </p>
+    </div>
+</body>
+</html>
